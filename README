@@ -1,0 +1,8 @@
+Instructions for UBUNTU:
+
+sudo apt-get install z3 yices
+
+cd sat
+python3 smtbmc_protname.py nameOfTheProtocol
+
+python3 smtbmc_protname.py nssk
