@@ -1,0 +1,11 @@
+#!/bin/bash
+for i in {1..100}
+do
+  mv denning_L$i.efo denning_Man1_L$i.efo
+  mv denning_L$i.nta denning_Man1_L$i.nta
+  #mv denning_D2_L$i.efo denning_Man2_D2_L$i.efo
+  #mv denning_D2_L$i.nta denning_Man2_D2_L$i.nta
+  #mv denning_D3_L$i.efo denning_Man2_D3_L$i.efo
+  #mv denning_D3_L$i.nta denning_Man2_D3_L$i.nta
+done 
+ 
